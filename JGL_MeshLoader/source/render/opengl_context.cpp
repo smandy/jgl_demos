@@ -29,7 +29,7 @@ namespace nrender
 
   bool OpenGL_Context::init(nwindow::IWindow* window)
   {
-    __super::init(window);
+    RenderContext::init(window);
 
     /* Initialize the library */
     if (!glfwInit())

@@ -11,3 +11,8 @@
 /JGL_MeshLoader/libs/assimp/unit.lib
 /JGL_MeshLoader/.vs/JGL_Projects/v16
 /x64/Debug
+*.o
+*~
+.sconsign.dblite
+/main
+imgui.ini
