@@ -34,4 +34,19 @@ opengl_buffer_manager = env.Object('JGL_MeshLoader/source/render/opengl_buffer_m
 scene_view = env.Object('JGL_MeshLoader/source/ui/scene_view.cpp')
 property_panel = env.Object('JGL_MeshLoader/source/ui/property_panel.cpp')
 
-env.Program('main', ['JGL_MeshLoader/source/main.cpp', app,  imgui, imgui_draw, imgui_glfw, impl_opengl3, imgui_widgets, imgui_tables, jgl_window, shader_util, ui_context, opengl_context, opengl_buffer_manager, scene_view, property_panel, mesh])
+env.Program('main', ['JGL_MeshLoader/source/main.cpp',
+                     app,
+                     imgui,
+                     imgui_draw,
+                     imgui_glfw,
+                     impl_opengl3,
+                     imgui_widgets,
+                     imgui_tables,
+                     jgl_window,
+                     shader_util,
+                     ui_context,
+                     opengl_context,
+                     opengl_buffer_manager,
+                     scene_view,
+                     property_panel,
+                     mesh])
