@@ -1,4 +1,6 @@
+# TODO - tidy this up.
 
+# This was bare minimum to get this thing running.
 
 env = Environment(LIBS=['GLEW','glfw','assimp', 'GL'], 
     CPPFLAGS=['-std=c++17', '-g'],
